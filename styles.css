@@ -1,2 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
 
-/* Your CSS Code here. */
+img {
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #0073b1;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#skills, #projects {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: square;
+    text-align: left;
+    display: inline-block;
+}
